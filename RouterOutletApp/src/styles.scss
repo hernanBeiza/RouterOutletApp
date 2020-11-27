@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+
+.component-1 {
+	border: red dashed 2px;
+}
+.component-2 {
+	border: blue dashed 2px;
+}
+.component-3 {
+	border: green dashed 2px;
+}
+.component-4 {
+	border: yellow dashed 2px;
+}
+
+//Ventana Modal
+.modal-in {
+  animation-name: modalIN;
+  animation-duration: 0.2s;
+}
+
+@keyframes modalIN {
+  0%   {transform: scale(0.5)}
+  100% {transform: scale(1)}
+}
